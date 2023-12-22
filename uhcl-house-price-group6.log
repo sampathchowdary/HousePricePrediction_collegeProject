@@ -1,0 +1,767 @@
+16.3s 1 MSSubClass MSZoning  LotFrontage  LotArea Street Alley LotShape  \
+16.3s 2 Id
+16.3s 3 1           60       RL         65.0     8450   Pave   NaN      Reg
+16.3s 4 2           20       RL         80.0     9600   Pave   NaN      Reg
+16.3s 5 3           60       RL         68.0    11250   Pave   NaN      IR1
+16.3s 6 4           70       RL         60.0     9550   Pave   NaN      IR1
+16.3s 7 5           60       RL         84.0    14260   Pave   NaN      IR1
+16.3s 8 
+16.3s 9 LandContour Utilities LotConfig  ... PoolArea PoolQC Fence MiscFeature  \
+16.3s 10 Id                                  ...
+16.3s 11 1          Lvl    AllPub    Inside  ...        0    NaN   NaN         NaN
+16.3s 12 2          Lvl    AllPub       FR2  ...        0    NaN   NaN         NaN
+16.3s 13 3          Lvl    AllPub    Inside  ...        0    NaN   NaN         NaN
+16.3s 14 4          Lvl    AllPub    Corner  ...        0    NaN   NaN         NaN
+16.3s 15 5          Lvl    AllPub       FR2  ...        0    NaN   NaN         NaN
+16.3s 16 
+16.3s 17 MiscVal MoSold  YrSold  SaleType  SaleCondition  SalePrice
+16.3s 18 Id
+16.3s 19 1        0      2    2008        WD         Normal     208500
+16.3s 20 2        0      5    2007        WD         Normal     181500
+16.3s 21 3        0      9    2008        WD         Normal     223500
+16.3s 22 4        0      2    2006        WD        Abnorml     140000
+16.3s 23 5        0     12    2008        WD         Normal     250000
+16.3s 24 
+16.3s 25 [5 rows x 80 columns]
+16.3s 26 Index(['MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Street', 'Alley',
+16.3s 27 'LotShape', 'LandContour', 'Utilities', 'LotConfig', 'LandSlope',
+16.3s 28 'Neighborhood', 'Condition1', 'Condition2', 'BldgType', 'HouseStyle',
+16.3s 29 'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'RoofStyle',
+16.3s 30 'RoofMatl', 'Exterior1st', 'Exterior2nd', 'MasVnrType', 'MasVnrArea',
+16.3s 31 'ExterQual', 'ExterCond', 'Foundation', 'BsmtQual', 'BsmtCond',
+16.3s 32 'BsmtExposure', 'BsmtFinType1', 'BsmtFinSF1', 'BsmtFinType2',
+16.3s 33 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', 'Heating', 'HeatingQC',
+16.3s 34 'CentralAir', 'Electrical', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
+16.3s 35 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath',
+16.3s 36 'BedroomAbvGr', 'KitchenAbvGr', 'KitchenQual', 'TotRmsAbvGrd',
+16.3s 37 'Functional', 'Fireplaces', 'FireplaceQu', 'GarageType', 'GarageYrBlt',
+16.3s 38 'GarageFinish', 'GarageCars', 'GarageArea', 'GarageQual', 'GarageCond',
+16.3s 39 'PavedDrive', 'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch',
+16.3s 40 'ScreenPorch', 'PoolArea', 'PoolQC', 'Fence', 'MiscFeature', 'MiscVal',
+16.3s 41 'MoSold', 'YrSold', 'SaleType', 'SaleCondition', 'SalePrice'],
+16.3s 42 dtype='object')
+16.3s 43 (1460, 80)
+16.4s 44 MSSubClass MSZoning  LotFrontage  LotArea Street Alley LotShape  \
+16.4s 45 Id
+16.4s 46 1461          20       RH         80.0    11622   Pave   NaN      Reg
+16.4s 47 1462          20       RL         81.0    14267   Pave   NaN      IR1
+16.4s 48 1463          60       RL         74.0    13830   Pave   NaN      IR1
+16.4s 49 1464          60       RL         78.0     9978   Pave   NaN      IR1
+16.4s 50 1465         120       RL         43.0     5005   Pave   NaN      IR1
+16.4s 51 
+16.4s 52 LandContour Utilities LotConfig  ... ScreenPorch PoolArea PoolQC  Fence  \
+16.4s 53 Id                                    ...
+16.4s 54 1461         Lvl    AllPub    Inside  ...         120        0    NaN  MnPrv
+16.4s 55 1462         Lvl    AllPub    Corner  ...           0        0    NaN    NaN
+16.4s 56 1463         Lvl    AllPub    Inside  ...           0        0    NaN  MnPrv
+16.4s 57 1464         Lvl    AllPub    Inside  ...           0        0    NaN    NaN
+16.4s 58 1465         HLS    AllPub    Inside  ...         144        0    NaN    NaN
+16.4s 59 
+16.4s 60 MiscFeature MiscVal  MoSold  YrSold  SaleType  SaleCondition
+16.4s 61 Id
+16.4s 62 1461         NaN       0       6    2010        WD         Normal
+16.4s 63 1462        Gar2   12500       6    2010        WD         Normal
+16.4s 64 1463         NaN       0       3    2010        WD         Normal
+16.4s 65 1464         NaN       0       6    2010        WD         Normal
+16.4s 66 1465         NaN       0       1    2010        WD         Normal
+16.4s 67 
+16.4s 68 [5 rows x 79 columns]
+16.4s 69 Index(['MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Street', 'Alley',
+16.4s 70 'LotShape', 'LandContour', 'Utilities', 'LotConfig', 'LandSlope',
+16.4s 71 'Neighborhood', 'Condition1', 'Condition2', 'BldgType', 'HouseStyle',
+16.4s 72 'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'RoofStyle',
+16.4s 73 'RoofMatl', 'Exterior1st', 'Exterior2nd', 'MasVnrType', 'MasVnrArea',
+16.4s 74 'ExterQual', 'ExterCond', 'Foundation', 'BsmtQual', 'BsmtCond',
+16.4s 75 'BsmtExposure', 'BsmtFinType1', 'BsmtFinSF1', 'BsmtFinType2',
+16.4s 76 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', 'Heating', 'HeatingQC',
+16.4s 77 'CentralAir', 'Electrical', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
+16.4s 78 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath',
+16.4s 79 'BedroomAbvGr', 'KitchenAbvGr', 'KitchenQual', 'TotRmsAbvGrd',
+16.4s 80 'Functional', 'Fireplaces', 'FireplaceQu', 'GarageType', 'GarageYrBlt',
+16.4s 81 'GarageFinish', 'GarageCars', 'GarageArea', 'GarageQual', 'GarageCond',
+16.4s 82 'PavedDrive', 'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch',
+16.4s 83 'ScreenPorch', 'PoolArea', 'PoolQC', 'Fence', 'MiscFeature', 'MiscVal',
+16.4s 84 'MoSold', 'YrSold', 'SaleType', 'SaleCondition'],
+16.4s 85 dtype='object')
+16.4s 86 (1459, 79)
+16.5s 87 0    6965
+16.5s 88 dtype: int64
+16.7s 89 0    7000
+16.7s 90 dtype: int64
+32.0s 91 columns with empty data in train data set ['LotFrontage', 'Alley', 'MasVnrType', 'MasVnrArea', 'BsmtQual', 'BsmtCond', 'BsmtExposure', 'BsmtFinType1', 'BsmtFinType2', 'FireplaceQu', 'GarageType', 'GarageYrBlt', 'GarageFinish', 'GarageQual', 'GarageCond', 'PoolQC', 'Fence', 'MiscFeature']
+32.0s 92 
+32.0s 93 
+32.0s 94 columns with more null values in train data set ['Alley', 'PoolQC', 'Fence', 'MiscFeature']
+32.0s 95 
+32.0s 96 
+32.0s 97 columns with empty data in test data set ['MSZoning', 'LotFrontage', 'Alley', 'Utilities', 'MasVnrType', 'MasVnrArea', 'BsmtQual', 'BsmtCond', 'BsmtExposure', 'BsmtFinType1', 'BsmtFinType2', 'BsmtFullBath', 'BsmtHalfBath', 'Functional', 'FireplaceQu', 'GarageType', 'GarageYrBlt', 'GarageFinish', 'GarageQual', 'GarageCond', 'PoolQC', 'Fence', 'MiscFeature']
+32.0s 98 
+32.0s 99 
+32.0s 100 columns with more null values in train data set ['Alley', 'FireplaceQu', 'PoolQC', 'Fence', 'MiscFeature']
+32.5s 101 
+32.5s 102 RL         1151
+32.5s 103 RM          218
+32.5s 104 FV           65
+32.5s 105 RH           16
+32.5s 106 C (all)      10
+32.5s 107 Name: MSZoning, dtype: int64
+32.5s 108 
+32.5s 109 Pave    1454
+32.5s 110 Grvl       6
+32.5s 111 Name: Street, dtype: int64
+32.5s 112 
+32.5s 113 Reg    925
+32.5s 114 IR1    484
+32.5s 115 IR2     41
+32.5s 116 IR3     10
+32.5s 117 Name: LotShape, dtype: int64
+32.5s 118 
+32.5s 119 Lvl    1311
+32.5s 120 Bnk      63
+32.5s 121 HLS      50
+32.5s 122 Low      36
+32.5s 123 Name: LandContour, dtype: int64
+32.5s 124 
+32.5s 125 AllPub    1459
+32.5s 126 NoSeWa       1
+32.5s 127 Name: Utilities, dtype: int64
+32.5s 128 
+32.5s 129 Inside     1052
+32.5s 130 Corner      263
+32.5s 131 CulDSac      94
+32.5s 132 FR2          47
+32.5s 133 FR3           4
+32.5s 134 Name: LotConfig, dtype: int64
+32.5s 135 
+32.5s 136 Gtl    1382
+32.5s 137 Mod      65
+32.5s 138 Sev      13
+32.5s 139 Name: LandSlope, dtype: int64
+32.5s 140 
+32.5s 141 NAmes      225
+32.5s 142 CollgCr    150
+32.5s 143 OldTown    113
+32.5s 144 Edwards    100
+32.5s 145 Somerst     86
+32.5s 146 Gilbert     79
+32.5s 147 NridgHt     77
+32.5s 148 Sawyer      74
+32.5s 149 NWAmes      73
+32.5s 150 SawyerW     59
+32.5s 151 BrkSide     58
+32.5s 152 Crawfor     51
+32.5s 153 Mitchel     49
+32.5s 154 NoRidge     41
+32.5s 155 Timber      38
+32.5s 156 IDOTRR      37
+32.5s 157 ClearCr     28
+32.5s 158 StoneBr     25
+32.5s 159 SWISU       25
+32.5s 160 MeadowV     17
+32.5s 161 Blmngtn     17
+32.5s 162 BrDale      16
+32.5s 163 Veenker     11
+32.5s 164 NPkVill      9
+32.5s 165 Blueste      2
+32.5s 166 Name: Neighborhood, dtype: int64
+32.5s 167 
+32.5s 168 Norm      1260
+32.5s 169 Feedr       81
+32.5s 170 Artery      48
+32.5s 171 RRAn        26
+32.5s 172 PosN        19
+32.5s 173 RRAe        11
+32.5s 174 PosA         8
+32.5s 175 RRNn         5
+32.5s 176 RRNe         2
+32.5s 177 Name: Condition1, dtype: int64
+32.5s 178 
+32.5s 179 Norm      1445
+32.5s 180 Feedr        6
+32.5s 181 Artery       2
+32.5s 182 RRNn         2
+32.5s 183 PosN         2
+32.5s 184 PosA         1
+32.5s 185 RRAn         1
+32.5s 186 RRAe         1
+32.5s 187 Name: Condition2, dtype: int64
+32.5s 188 
+32.5s 189 1Fam      1220
+32.5s 190 TwnhsE     114
+32.5s 191 Duplex      52
+32.5s 192 Twnhs       43
+32.5s 193 2fmCon      31
+32.5s 194 Name: BldgType, dtype: int64
+32.5s 195 
+32.5s 196 1Story    726
+32.5s 197 2Story    445
+32.5s 198 1.5Fin    154
+32.5s 199 SLvl       65
+32.5s 200 SFoyer     37
+32.5s 201 1.5Unf     14
+32.5s 202 2.5Unf     11
+32.5s 203 2.5Fin      8
+32.5s 204 Name: HouseStyle, dtype: int64
+32.5s 205 
+32.5s 206 Gable      1141
+32.5s 207 Hip         286
+32.5s 208 Flat         13
+32.5s 209 Gambrel      11
+32.5s 210 Mansard       7
+32.5s 211 Shed          2
+32.5s 212 Name: RoofStyle, dtype: int64
+32.5s 213 
+32.5s 214 CompShg    1434
+32.5s 215 Tar&Grv      11
+32.5s 216 WdShngl       6
+32.5s 217 WdShake       5
+32.5s 218 Metal         1
+32.5s 219 Membran       1
+32.5s 220 Roll          1
+32.5s 221 ClyTile       1
+32.5s 222 Name: RoofMatl, dtype: int64
+32.5s 223 
+32.5s 224 VinylSd    515
+32.5s 225 HdBoard    222
+32.5s 226 MetalSd    220
+32.5s 227 Wd Sdng    206
+32.5s 228 Plywood    108
+32.5s 229 CemntBd     61
+32.5s 230 BrkFace     50
+32.5s 231 WdShing     26
+32.5s 232 Stucco      25
+32.5s 233 AsbShng     20
+32.5s 234 BrkComm      2
+32.5s 235 Stone        2
+32.5s 236 AsphShn      1
+32.5s 237 ImStucc      1
+32.5s 238 CBlock       1
+32.5s 239 Name: Exterior1st, dtype: int64
+32.5s 240 
+32.5s 241 VinylSd    504
+32.5s 242 MetalSd    214
+32.5s 243 HdBoard    207
+32.5s 244 Wd Sdng    197
+32.5s 245 Plywood    142
+32.5s 246 CmentBd     60
+32.5s 247 Wd Shng     38
+32.5s 248 Stucco      26
+32.5s 249 BrkFace     25
+32.5s 250 AsbShng     20
+32.5s 251 ImStucc     10
+32.5s 252 Brk Cmn      7
+32.5s 253 Stone        5
+32.5s 254 AsphShn      3
+32.5s 255 Other        1
+32.5s 256 CBlock       1
+32.5s 257 Name: Exterior2nd, dtype: int64
+32.5s 258 
+32.5s 259 None       864
+32.5s 260 BrkFace    445
+32.5s 261 Stone      128
+32.5s 262 BrkCmn      15
+32.5s 263 Name: MasVnrType, dtype: int64
+32.5s 264 
+32.5s 265 TA    906
+32.5s 266 Gd    488
+32.5s 267 Ex     52
+32.5s 268 Fa     14
+32.5s 269 Name: ExterQual, dtype: int64
+32.5s 270 
+32.5s 271 TA    1282
+32.5s 272 Gd     146
+32.5s 273 Fa      28
+32.5s 274 Ex       3
+32.5s 275 Po       1
+32.5s 276 Name: ExterCond, dtype: int64
+32.5s 277 
+32.5s 278 PConc     647
+32.5s 279 CBlock    634
+32.5s 280 BrkTil    146
+32.5s 281 Slab       24
+32.5s 282 Stone       6
+32.5s 283 Wood        3
+32.5s 284 Name: Foundation, dtype: int64
+32.5s 285 
+32.5s 286 TA    649
+32.5s 287 Gd    618
+32.5s 288 Ex    121
+32.5s 289 Fa     35
+32.5s 290 Name: BsmtQual, dtype: int64
+32.5s 291 
+32.5s 292 TA    1311
+32.5s 293 Gd      65
+32.5s 294 Fa      45
+32.5s 295 Po       2
+32.5s 296 Name: BsmtCond, dtype: int64
+32.5s 297 
+32.5s 298 No    953
+32.5s 299 Av    221
+32.5s 300 Gd    134
+32.5s 301 Mn    114
+32.5s 302 Name: BsmtExposure, dtype: int64
+32.5s 303 
+32.5s 304 Unf    430
+32.5s 305 GLQ    418
+32.5s 306 ALQ    220
+32.5s 307 BLQ    148
+32.5s 308 Rec    133
+32.5s 309 LwQ     74
+32.5s 310 Name: BsmtFinType1, dtype: int64
+32.5s 311 
+32.5s 312 Unf    1256
+32.5s 313 Rec      54
+32.5s 314 LwQ      46
+32.5s 315 BLQ      33
+32.5s 316 ALQ      19
+32.5s 317 GLQ      14
+32.5s 318 Name: BsmtFinType2, dtype: int64
+32.5s 319 
+32.5s 320 GasA     1428
+32.5s 321 GasW       18
+32.5s 322 Grav        7
+32.5s 323 Wall        4
+32.5s 324 OthW        2
+32.5s 325 Floor       1
+32.5s 326 Name: Heating, dtype: int64
+32.5s 327 
+32.5s 328 Ex    741
+32.5s 329 TA    428
+32.5s 330 Gd    241
+32.5s 331 Fa     49
+32.5s 332 Po      1
+32.5s 333 Name: HeatingQC, dtype: int64
+32.5s 334 
+32.5s 335 Y    1365
+32.5s 336 N      95
+32.5s 337 Name: CentralAir, dtype: int64
+32.5s 338 
+32.5s 339 SBrkr    1334
+32.5s 340 FuseA      94
+32.5s 341 FuseF      27
+32.5s 342 FuseP       3
+32.5s 343 Mix         1
+32.5s 344 Name: Electrical, dtype: int64
+32.5s 345 
+32.5s 346 TA    735
+32.5s 347 Gd    586
+32.5s 348 Ex    100
+32.5s 349 Fa     39
+32.5s 350 Name: KitchenQual, dtype: int64
+32.5s 351 
+32.5s 352 Typ     1360
+32.5s 353 Min2      34
+32.5s 354 Min1      31
+32.5s 355 Mod       15
+32.5s 356 Maj1      14
+32.5s 357 Maj2       5
+32.5s 358 Sev        1
+32.5s 359 Name: Functional, dtype: int64
+32.5s 360 
+32.5s 361 Gd    380
+32.5s 362 TA    313
+32.5s 363 Fa     33
+32.5s 364 Ex     24
+32.5s 365 Po     20
+32.5s 366 Name: FireplaceQu, dtype: int64
+32.5s 367 
+32.5s 368 Attchd     870
+32.5s 369 Detchd     387
+32.5s 370 BuiltIn     88
+32.5s 371 Basment     19
+32.5s 372 CarPort      9
+32.5s 373 2Types       6
+32.5s 374 Name: GarageType, dtype: int64
+32.5s 375 
+32.5s 376 Unf    605
+32.5s 377 RFn    422
+32.5s 378 Fin    352
+32.5s 379 Name: GarageFinish, dtype: int64
+32.5s 380 
+32.5s 381 TA    1311
+32.5s 382 Fa      48
+32.5s 383 Gd      14
+32.5s 384 Ex       3
+32.5s 385 Po       3
+32.5s 386 Name: GarageQual, dtype: int64
+32.5s 387 
+32.5s 388 TA    1326
+32.5s 389 Fa      35
+32.5s 390 Gd       9
+32.5s 391 Po       7
+32.5s 392 Ex       2
+32.5s 393 Name: GarageCond, dtype: int64
+32.5s 394 
+32.5s 395 Y    1340
+32.5s 396 N      90
+32.5s 397 P      30
+32.5s 398 Name: PavedDrive, dtype: int64
+32.5s 399 
+32.5s 400 WD       1267
+32.5s 401 New       122
+32.5s 402 COD        43
+32.5s 403 ConLD       9
+32.5s 404 ConLI       5
+32.5s 405 ConLw       5
+32.5s 406 CWD         4
+32.5s 407 Oth         3
+32.5s 408 Con         2
+32.5s 409 Name: SaleType, dtype: int64
+32.5s 410 
+32.5s 411 Normal     1198
+32.5s 412 Partial     125
+32.5s 413 Abnorml     101
+32.5s 414 Family       20
+32.5s 415 Alloca       12
+32.5s 416 AdjLand       4
+32.5s 417 Name: SaleCondition, dtype: int64
+32.7s 418 
+32.7s 419 RL         1114
+32.7s 420 RM          242
+32.7s 421 FV           74
+32.7s 422 C (all)      15
+32.7s 423 RH           10
+32.7s 424 Name: MSZoning, dtype: int64
+32.7s 425 
+32.7s 426 Pave    1453
+32.7s 427 Grvl       6
+32.7s 428 Name: Street, dtype: int64
+32.7s 429 
+32.7s 430 Reg    934
+32.7s 431 IR1    484
+32.7s 432 IR2     35
+32.7s 433 IR3      6
+32.7s 434 Name: LotShape, dtype: int64
+32.7s 435 
+32.7s 436 Lvl    1311
+32.7s 437 HLS      70
+32.7s 438 Bnk      54
+32.7s 439 Low      24
+32.7s 440 Name: LandContour, dtype: int64
+32.7s 441 
+32.7s 442 AllPub    1457
+32.7s 443 Name: Utilities, dtype: int64
+32.7s 444 
+32.7s 445 Inside     1081
+32.7s 446 Corner      248
+32.7s 447 CulDSac      82
+32.7s 448 FR2          38
+32.7s 449 FR3          10
+32.7s 450 Name: LotConfig, dtype: int64
+32.7s 451 
+32.7s 452 Gtl    1396
+32.7s 453 Mod      60
+32.7s 454 Sev       3
+32.7s 455 Name: LandSlope, dtype: int64
+32.7s 456 
+32.7s 457 NAmes      218
+32.7s 458 OldTown    126
+32.7s 459 CollgCr    117
+32.7s 460 Somerst     96
+32.7s 461 Edwards     94
+32.7s 462 NridgHt     89
+32.7s 463 Gilbert     86
+32.7s 464 Sawyer      77
+32.7s 465 SawyerW     66
+32.7s 466 Mitchel     65
+32.7s 467 NWAmes      58
+32.7s 468 IDOTRR      56
+32.7s 469 Crawfor     52
+32.7s 470 BrkSide     50
+32.7s 471 Timber      34
+32.7s 472 NoRidge     30
+32.7s 473 StoneBr     26
+32.7s 474 SWISU       23
+32.7s 475 MeadowV     20
+32.7s 476 ClearCr     16
+32.7s 477 BrDale      14
+32.7s 478 NPkVill     14
+32.7s 479 Veenker     13
+32.7s 480 Blmngtn     11
+32.7s 481 Blueste      8
+32.7s 482 Name: Neighborhood, dtype: int64
+32.7s 483 
+32.7s 484 Norm      1251
+32.7s 485 Feedr       83
+32.7s 486 Artery      44
+32.7s 487 RRAn        24
+32.7s 488 PosN        20
+32.7s 489 RRAe        17
+32.7s 490 PosA        12
+32.7s 491 RRNe         4
+32.7s 492 RRNn         4
+32.7s 493 Name: Condition1, dtype: int64
+32.7s 494 
+32.7s 495 Norm      1444
+32.7s 496 Feedr        7
+32.7s 497 PosA         3
+32.7s 498 Artery       3
+32.7s 499 PosN         2
+32.7s 500 Name: Condition2, dtype: int64
+32.7s 501 
+32.7s 502 1Fam      1205
+32.7s 503 TwnhsE     113
+32.7s 504 Duplex      57
+32.7s 505 Twnhs       53
+32.7s 506 2fmCon      31
+32.7s 507 Name: BldgType, dtype: int64
+32.7s 508 
+32.7s 509 1Story    745
+32.7s 510 2Story    427
+32.7s 511 1.5Fin    160
+32.7s 512 SLvl       63
+32.7s 513 SFoyer     46
+32.7s 514 2.5Unf     13
+32.7s 515 1.5Unf      5
+32.7s 516 Name: HouseStyle, dtype: int64
+32.7s 517 
+32.7s 518 Gable      1169
+32.7s 519 Hip         265
+32.7s 520 Gambrel      11
+32.7s 521 Flat          7
+32.7s 522 Mansard       4
+32.7s 523 Shed          3
+32.7s 524 Name: RoofStyle, dtype: int64
+32.7s 525 
+32.7s 526 CompShg    1442
+32.7s 527 Tar&Grv      12
+32.7s 528 WdShake       4
+32.7s 529 WdShngl       1
+32.7s 530 Name: RoofMatl, dtype: int64
+32.7s 531 
+32.7s 532 VinylSd    510
+32.7s 533 MetalSd    230
+32.7s 534 HdBoard    220
+32.7s 535 Wd Sdng    205
+32.7s 536 Plywood    113
+32.7s 537 CemntBd     65
+32.7s 538 BrkFace     37
+32.7s 539 WdShing     30
+32.7s 540 AsbShng     24
+32.7s 541 Stucco      18
+32.7s 542 BrkComm      4
+32.7s 543 AsphShn      1
+32.7s 544 CBlock       1
+32.7s 545 Name: Exterior1st, dtype: int64
+32.7s 546 
+32.7s 547 VinylSd    510
+32.7s 548 MetalSd    233
+32.7s 549 HdBoard    199
+32.7s 550 Wd Sdng    194
+32.7s 551 Plywood    128
+32.7s 552 CmentBd     66
+32.7s 553 Wd Shng     43
+32.7s 554 BrkFace     22
+32.7s 555 Stucco      21
+32.7s 556 AsbShng     18
+32.7s 557 Brk Cmn     15
+32.7s 558 ImStucc      5
+32.7s 559 CBlock       2
+32.7s 560 AsphShn      1
+32.7s 561 Stone        1
+32.7s 562 Name: Exterior2nd, dtype: int64
+32.7s 563 
+32.7s 564 None       878
+32.7s 565 BrkFace    434
+32.7s 566 Stone      121
+32.7s 567 BrkCmn      10
+32.7s 568 Name: MasVnrType, dtype: int64
+32.7s 569 
+32.7s 570 TA    892
+32.7s 571 Gd    491
+32.7s 572 Ex     55
+32.7s 573 Fa     21
+32.7s 574 Name: ExterQual, dtype: int64
+32.7s 575 
+32.7s 576 TA    1256
+32.7s 577 Gd     153
+32.7s 578 Fa      39
+32.7s 579 Ex       9
+32.7s 580 Po       2
+32.7s 581 Name: ExterCond, dtype: int64
+32.7s 582 
+32.7s 583 PConc     661
+32.7s 584 CBlock    601
+32.7s 585 BrkTil    165
+32.7s 586 Slab       25
+32.7s 587 Stone       5
+32.7s 588 Wood        2
+32.7s 589 Name: Foundation, dtype: int64
+32.7s 590 
+32.7s 591 TA    634
+32.7s 592 Gd    591
+32.7s 593 Ex    137
+32.7s 594 Fa     53
+32.7s 595 Name: BsmtQual, dtype: int64
+32.7s 596 
+32.7s 597 TA    1295
+32.7s 598 Fa      59
+32.7s 599 Gd      57
+32.7s 600 Po       3
+32.7s 601 Name: BsmtCond, dtype: int64
+32.7s 602 
+32.7s 603 No    951
+32.7s 604 Av    197
+32.7s 605 Gd    142
+32.7s 606 Mn    125
+32.7s 607 Name: BsmtExposure, dtype: int64
+32.7s 608 
+32.7s 609 GLQ    431
+32.7s 610 Unf    421
+32.7s 611 ALQ    209
+32.7s 612 Rec    155
+32.7s 613 BLQ    121
+32.7s 614 LwQ     80
+32.7s 615 Name: BsmtFinType1, dtype: int64
+32.7s 616 
+32.7s 617 Unf    1237
+32.7s 618 Rec      51
+32.7s 619 LwQ      41
+32.7s 620 BLQ      35
+32.7s 621 ALQ      33
+32.7s 622 GLQ      20
+32.7s 623 Name: BsmtFinType2, dtype: int64
+32.7s 624 
+32.7s 625 GasA    1446
+32.7s 626 GasW       9
+32.7s 627 Grav       2
+32.7s 628 Wall       2
+32.7s 629 Name: Heating, dtype: int64
+32.7s 630 
+32.7s 631 Ex    752
+32.7s 632 TA    429
+32.7s 633 Gd    233
+32.7s 634 Fa     43
+32.7s 635 Po      2
+32.7s 636 Name: HeatingQC, dtype: int64
+32.7s 637 
+32.7s 638 Y    1358
+32.7s 639 N     101
+32.7s 640 Name: CentralAir, dtype: int64
+32.7s 641 
+32.7s 642 SBrkr    1337
+32.7s 643 FuseA      94
+32.7s 644 FuseF      23
+32.7s 645 FuseP       5
+32.7s 646 Name: Electrical, dtype: int64
+32.7s 647 
+32.7s 648 TA    757
+32.7s 649 Gd    565
+32.7s 650 Ex    105
+32.7s 651 Fa     31
+32.7s 652 Name: KitchenQual, dtype: int64
+32.7s 653 
+32.7s 654 Typ     1357
+32.7s 655 Min2      36
+32.7s 656 Min1      34
+32.7s 657 Mod       20
+32.7s 658 Maj1       5
+32.7s 659 Maj2       4
+32.7s 660 Sev        1
+32.7s 661 Name: Functional, dtype: int64
+32.7s 662 
+32.7s 663 Attchd     853
+32.7s 664 Detchd     392
+32.7s 665 BuiltIn     98
+32.7s 666 Basment     17
+32.7s 667 2Types      17
+32.7s 668 CarPort      6
+32.7s 669 Name: GarageType, dtype: int64
+32.7s 670 
+32.7s 671 Unf    625
+32.7s 672 RFn    389
+32.7s 673 Fin    367
+32.7s 674 Name: GarageFinish, dtype: int64
+32.7s 675 
+32.7s 676 TA    1293
+32.7s 677 Fa      76
+32.7s 678 Gd      10
+32.7s 679 Po       2
+32.7s 680 Name: GarageQual, dtype: int64
+32.7s 681 
+32.7s 682 TA    1328
+32.7s 683 Fa      39
+32.7s 684 Po       7
+32.7s 685 Gd       6
+32.7s 686 Ex       1
+32.7s 687 Name: GarageCond, dtype: int64
+32.7s 688 
+32.7s 689 Y    1301
+32.7s 690 N     126
+32.7s 691 P      32
+32.7s 692 Name: PavedDrive, dtype: int64
+32.7s 693 
+32.7s 694 WD       1258
+32.7s 695 New       117
+32.7s 696 COD        44
+32.7s 697 ConLD      17
+32.7s 698 CWD         8
+32.7s 699 Oth         4
+32.7s 700 ConLI       4
+32.7s 701 Con         3
+32.7s 702 ConLw       3
+32.7s 703 Name: SaleType, dtype: int64
+32.7s 704 
+32.7s 705 Normal     1204
+32.7s 706 Partial     120
+32.7s 707 Abnorml      89
+32.7s 708 Family       26
+32.7s 709 Alloca       12
+32.7s 710 AdjLand       8
+32.7s 711 Name: SaleCondition, dtype: int64
+47.5s 712 <class 'pandas.core.frame.DataFrame'> (2919, 80)
+47.5s 713 Index(['MSSubClass', 'MSZoning', 'LotFrontage', 'LotArea', 'Street',
+47.5s 714 'LotShape', 'LandContour', 'LotConfig', 'LandSlope', 'Neighborhood',
+47.5s 715 'Condition1', 'Condition2', 'BldgType', 'HouseStyle', 'OverallQual',
+47.5s 716 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'RoofStyle', 'RoofMatl',
+47.5s 717 'Exterior1st', 'Exterior2nd', 'MasVnrType', 'MasVnrArea', 'ExterQual',
+47.5s 718 'ExterCond', 'Foundation', 'BsmtQual', 'BsmtCond', 'BsmtExposure',
+47.5s 719 'BsmtFinType1', 'BsmtFinSF1', 'BsmtFinType2', 'BsmtFinSF2', 'BsmtUnfSF',
+47.5s 720 'TotalBsmtSF', 'Heating', 'HeatingQC', 'CentralAir', 'Electrical',
+47.5s 721 '1stFlrSF', '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath',
+47.5s 722 'BsmtHalfBath', 'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr',
+47.5s 723 'KitchenQual', 'TotRmsAbvGrd', 'Functional', 'Fireplaces',
+47.5s 724 'FireplaceQu', 'GarageType', 'GarageYrBlt', 'GarageFinish',
+47.5s 725 'GarageCars', 'GarageArea', 'GarageQual', 'GarageCond', 'PavedDrive',
+47.5s 726 'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch',
+47.5s 727 'ScreenPorch', 'PoolArea', 'MiscVal', 'MoSold', 'YrSold', 'SaleType',
+47.5s 728 'SaleCondition', 'SalePrice'],
+47.5s 729 dtype='object')
+51.9s 730 Number of unique categories reduced from 166 to 120
+52.7s 731 (1460, 94)
+52.7s 732 (1459, 94)
+53.0s 733 Total miising values:
+53.0s 734 Train Data    1548
+53.0s 735 Test Data     5242
+53.0s 736 dtype: int64
+53.4s 737 Total miising values:
+53.4s 738 Train Data    0.0
+53.4s 739 Test Data     0.0
+53.4s 740 dtype: float64
+63.1s 741 Out of 94 features, 27 fetures are having MI_Scores more than 0.01.
+64.2s 742 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+83.5s 743 RMSLE on training data: 0.0833
+83.5s 744 RMSLE on validation data: 0.1315
+91.4s 745 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+91.4s 746 FutureWarning,
+91.4s 747 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+91.9s 748 [NbConvertApp] Writing 4094173 bytes to __notebook__.ipynb
+95.3s 749 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+95.3s 750 FutureWarning,
+95.3s 751 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+96.5s 752 [NbConvertApp] Support files will be in __results___files/
+96.5s 753 [NbConvertApp] Making directory __results___files
+96.5s 754 [NbConvertApp] Making directory __results___files
+96.5s 755 [NbConvertApp] Making directory __results___files
+96.5s 756 [NbConvertApp] Making directory __results___files
+96.5s 757 [NbConvertApp] Making directory __results___files
+96.5s 758 [NbConvertApp] Making directory __results___files
+96.5s 759 [NbConvertApp] Making directory __results___files
+96.5s 760 [NbConvertApp] Making directory __results___files
+96.5s 761 [NbConvertApp] Making directory __results___files
+96.5s 762 [NbConvertApp] Making directory __results___files
+96.5s 763 [NbConvertApp] Making directory __results___files
+96.5s 764 [NbConvertApp] Making directory __results___files
+96.5s 765 [NbConvertApp] Making directory __results___files
+96.5s 766 [NbConvertApp] Making directory __results___files
+96.5s 767 [NbConvertApp] Writing 460997 bytes to __results__.html
